@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vsCode Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAApVBMVEX///8CiNEjtfYAdrsYs/YVsvYAc7gAc7rJ6fwArvUAb7UAsPYAabAAb7kAcbo/vPcAhNAAgM4AaLMAZrUAfc7N3e3X5/X2+fzm8Pnt9fqgx+jm9//Q7P3b8P1qpdcAnum64/swfL4Mj9ap3Pud2Pq70OaDzfilwt+Vudtqxvh7qNMAqvVTj8Y8hsOtyuPE2/B9tOBQntmIr9Q2k9RjmssAWKmNvOS4wwzzAAADg0lEQVRoge3Z23aiMBQG4GAwGdEgBAWxHVvtWK3jsbW+/6NNAFFMNjZgvJnlv3pH/VbcZCcREHrkkf8hT8+/72aPrJd29/UudDwOGJ80W/Yd+Jhyxhi3m81W482wHXLmJngzSav9JzJo98WwXTfHUz42ZU+DhBZ/SVly/t0MPwsodVM9H3nKt94NzMy5sI96EU/4j1v5RWpn+rksWdp/32+yR5zSXGe80ZTSumVeLhnGZ10eeZLaszJauRgXdABv1S37YEwxLuoQ/qumTY72SWfG8L5LML7UjeEbjovJ8IYtpxa+ZhgrOms0TeDzAMuphG+2202Z/SmPO9N18WjX87zeDm6BPWQLvWNr4fHEs0S8SahvY5d0dW5oaOXpDZXvlLWlGrZEXY2Rh/4Jt/yR9J1WFLb5HGnhE6uQy9IMXNimuI+08OLAU359utQvsdky3dV08N4lbvnb45UNdwhk88/sugYeexIuSjNILqwDSoiqU5I3hE7Nh/LQBT8VbckTW9HZ6rTR6+Bo6Ct67/AZOA5R9bwk2jiaAmP3HUfVKZ+iqjjqK3UXwYpeKEkFHIWQ7kk6X1x+SBdHAwviaUGnbI1q4ij+uq67Y2VV08fFsltS+BTne/UTFXBxnlKnZDp4Qhwul6QyXqozAi30qNuQ0762hw6hylgUKEkNfM4g3BvB/10N3393KKhbt5dlH3Q6sG754A3Vx6MV7yRxYB0ojT4ejzuOc0X3vga18QFmyTKY6h1QTxf5WnjIHOL8pPe2tfA+o5TQgg7Od1GauDo+DbJza0H3Qd7zNlXxWXpgy/FU/14c1N0pLc2hGj47HpBFZXI9WIM7axJ/F1fAo9MOSY46J9nRAtY9q6+Ph1zSg3yd2sD66bhaDcckWbpn50swLkoT6dZ8XDw7MHxxEAV31nwl08FDdtbl3QzeWY+l0ZqKIT0eZkmhJMdEZbpYyfSaKB6nPx9cDC3b8N6XtKtm+0dL7rp8Cf/gKtUVu2xV3CwW8qJ3yqFkwmvjVwMcss3hcLOawsFmNYZDx2DPNoUDzWoQV5vVJI6QdAyG8BueW+78H/BGfRuhrX8Vb7/egqPizirjdvvWB/WFZr3EbdvAY+5zsxZx2zbzgH7TU3BBm3q1EEp4s/Fm8K3FwPPOuFkanZo1mXx3eBEVfYnb2rwLnWT70rI/6q8kP+Tp+ele9COPmMs/JilUYyecYZoAAAAASUVORK5CYII="
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div id="nav">
+          <div>Visual Studio Code</div>
+          <div>Docs</div>
+          <div>Updates</div>
+          <div>Blogs</div>
+          <div>API</div>
+          <div>Extensions</div>
+          <div>MCQ's</div>
+          <div>FAQ</div>
+          <div>Dev Days</div>
+        </div>
+        <div>
+          <input type="text" placeholder="Search..." />
+          <button id="go">Go</button>
+        </div>
+      </div>
+      <div class="hero">
+        <div>The Open Source <br />AI Code Editor</div>
+      </div>
+      <div class="content">
+        <div class="download">
+          <button id="Download">⬜ Download for Windows</button>
+          <p class="links">
+            <a href="#">Web</a>, <a href="#">Insiders edition</a>, or
+            <a href="#">other platforms</a>
+          </p>
+          <p class="notice">
+            By using VS Code, you agree to its <a href="#">license</a> and
+            <a href="#">privacy statement</a>.
+          </p>
+        </div>
+      </div>
+      <div class="languages-section">
+        <!-- Left Side -->
+        <div class="text">
+          <h2>Code in any language</h2>
+          <p>
+            VS Code supports almost every major programming language. Several
+            ship in the box, like JavaScript, TypeScript, CSS, and HTML, but
+            extensions for others can be found in the VS Code Marketplace.
+          </p>
+        </div>
+
+        <!-- Right Side -->
+        <div class="languages-grid">
+          <div><span class="icon js">JS</span> JavaScript</div>
+          <div><span class="icon ts">TS</span> TypeScript</div>
+          <div><span class="icon python">🐍</span> Python</div>
+          <div><span class="icon csharp">C#</span> C#</div>
+          <div><span class="icon cpp">C++</span> C++</div>
+          <div><span class="icon html">&lt;/&gt;</span> HTML</div>
+          <div><span class="icon java">J</span> Java</div>
+          <div><span class="icon json">{}</span> JSON</div>
+          <div><span class="icon php">🐘</span> PHP</div>
+          <div><span class="icon md">↓</span> Markdown</div>
+          <div><span class="icon ps">&gt;_</span> Powershell</div>
+          <div><span class="icon yaml">!</span> YAML</div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-left">
+          <a href="#"><img src="twitter.png" alt="X" class="footer-icon" /></a>
+          <a href="#"
+            ><img src="github-logo.png" alt="GitHub" class="footer-icon"
+          /></a>
+          <a href="#"
+            ><img src="youtube.png" alt="YouTube" class="footer-icon"
+          /></a>
+        </div>
+
+        <div class="footer-links">
+          <a href="#">Support</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">License</a>
+        </div>
+
+        <div class="footer-right">
+          <a href="#"
+            ><img src="windows.png" alt="Windows" class="footer-icon"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

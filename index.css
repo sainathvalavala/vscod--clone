@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0e1116; /* matches VS Code dark bg */
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #11131a;
+  padding: 10px 20px;
+}
+
+#nav {
+  display: flex;
+  gap: 20px; /* spacing between menu items */
+}
+
+#nav div {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+#nav div:hover {
+  color: #4fc3f7; /* hover effect */
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+#go {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4fc3f7;
+  color: black;
+  cursor: pointer;
+}
+.hero {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Segoe UI";
+  font-weight: 900;
+  font-size: 70px;
+}
+.content {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Segoe UI";
+  background-color: #1a1c21;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  padding: 20px;
+  border-radius: 8px;
+  width: fit-content; /* shrink-wrap to button */
+  margin-left: auto; /* center grey box */
+  margin-right: auto;
+}
+
+#Download {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px; /* reduces inside spacing */
+  cursor: pointer;
+  width: auto; /* ensures width matches text */
+  display: inline-block; /* prevents full stretch */
+}
+
+.download button:hover {
+  color: #4fc3f7;
+  background-color: #1e1e2d; /* dark grey box */
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4); /* hover effect */
+}
+.links {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #cfd6e0;
+}
+
+.links a {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.notice {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #b0b6c2;
+}
+.languages-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  margin: 40px 80px;
+  background-color: #0e1116; /* Dark background */
+  color: #cfd6e0;
+}
+
+/* Left text */
+.text {
+  flex: 1;
+}
+
+.text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #f3f6fb;
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Right grid */
+.languages-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 40px;
+}
+
+.languages-grid div {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #cfd6e0;
+}
+
+/* Icon styling */
+.icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Different colors for each language */
+.js {
+  color: #f7df1e;
+}
+.ts {
+  color: #3178c6;
+}
+.python {
+  color: #4b8bbe;
+}
+.csharp {
+  color: #178600;
+}
+.cpp {
+  color: #00599c;
+}
+.html {
+  color: #e34c26;
+}
+.java {
+  color: #e76f00;
+}
+.json {
+  color: #f7df1e;
+}
+.php {
+  color: #777bb3;
+}
+.md {
+  color: #00bfae;
+}
+.ps {
+  color: #5391fe;
+}
+.yaml {
+  color: #ff4081;
+}
+
+.languages-grid div:hover {
+  transform: scale(1.05);
+  color: #4fc3f7;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #0d1117;  /* dark background */
+  color: #c9d1d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  font-size: 14px;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #c9d1d9;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #58a6ff;
+}
+
+.footer-icon {
+  width: 22px;
+  height: 22px;
+  filter: invert(80%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-icon:hover {
+  filter: invert(50%) sepia(100%) saturate(200%) hue-rotate(190deg);
+}
